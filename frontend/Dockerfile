@@ -11,5 +11,5 @@ ADD . /app
 WORKDIR /app
 
 # This is the runtime command for the container
-RUN yarn install --silent
+#RUN yarn install --silent
 CMD yarn start
